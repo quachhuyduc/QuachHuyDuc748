@@ -16560,8 +16560,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Net2\\QuachHuyDuc748\\Views\\CompanyQHD748\\Index.cshtml",
+      "TargetPath": "Views\\CompanyQHD748\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Net2\\QuachHuyDuc748\\Views\\CompanyQHD748\\Create.cshtml",
+      "TargetPath": "Views\\CompanyQHD748\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Net2\\QuachHuyDuc748\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Net2\\QuachHuyDuc748\\Views\\CompanyQHD748\\Delete.cshtml",
+      "TargetPath": "Views\\CompanyQHD748\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16582,6 +16597,11 @@
     {
       "FilePath": "d:\\Net2\\QuachHuyDuc748\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Net2\\QuachHuyDuc748\\Views\\CompanyQHD748\\Update.cshtml",
+      "TargetPath": "Views\\CompanyQHD748\\Update.cshtml",
       "FileKind": "mvc"
     },
     {

@@ -1,0 +1,23 @@
+@{
+  string companyID = Guid.NewGuid().ToString();
+}
+<h2 style="margin-bottom: 36px">Thêm mới công ty</h2>
+<form asp-action="Create" method="post">
+    <<div class="mb-3">
+      <label for="company_ID">ID công ty:</label>
+      <input type="text" class="form-control" id="company_ID" placeholder="Enter company ID" name="CompanyId">
+    </div>
+    <div class="mb-3">
+      <label for="company_Name">Tên công ty:</label>
+      <input type="text" class="form-control" id="company_Name" placeholder="Enter company name" name="CompanyName">
+    </div>
+  
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <a class="btn btn-success" asp-action="Index">Danh sach công ty</a>
+    </div>
+</form>
+
+   
+
+

@@ -1,0 +1,24 @@
+@model IEnumerable<QuachHuyDuc748.Models.CompanyQHD748>
+  <p>
+    <a  class="btn btn-success" asp-action="Index">Create a Company</a>
+    
+</p>
+<table class="table table-all">
+    <tr>
+        <th>ID Công ty</th>
+        <th>Tên Công ty</th>
+       
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(m => item.CompanyId)</td>
+            <td>@Html.DisplayFor(m => item.CompanyName)</td>
+            
+            <td>
+                <a asp-action="Update" asp-route-id="@item.CompanyId" class="btn btn-success">Sửa</a>
+                <a asp-action="Delete" asp-route-id="@item.CompanyId" class="btn btn-danger">Xóa</a>
+            </td>
+        </tr>
+    }
+</table>
